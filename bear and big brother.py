@@ -1,4 +1,5 @@
-a,b= list(map(int,input().split()))
+M = lambda: map(int,input().split())
+a,b= M()
 for i in range(100):
     if a<=b:
         a = 3*a
