@@ -1,5 +1,7 @@
-n , h=list(map(int,input().split()))
-a = list(map(int,input().split()))[:n]
+M = lambda: map(int,input().split())
+LI = lambda: list(map(int,input().split()))
+n , h=M()
+a = LI()
 w = 0
 w1 = 0
 w2 = 0
