@@ -1,4 +1,5 @@
-s = input()
+I=lamda:input()
+s = I()
 s = list(s)
 s = list(dict.fromkeys(s))
 n = len(s)
